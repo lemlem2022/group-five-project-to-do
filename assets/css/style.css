@@ -1,3 +1,27 @@
+
+
 .container-fluid {
-	color: greenyellow;
+	background-color: greenyellow;
+	width: 100%;
+	text-align: center;
+	font-size: larger;
+	margin-bottom: 30px;
+}
+.container-one{
+	margin-left: 10px;
+}
+.container-two{
+	margin-left: 50%;
+	
+}
+.first-input{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.button{
+background-color: black;
+color: white;
+padding-left: 40px;
+padding-right: 40px;
 }
