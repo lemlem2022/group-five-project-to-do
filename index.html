@@ -12,8 +12,8 @@
 
 <body>
   <nav>
-    <div class="container-fluid">
-      <div class="row">
+      <div class="container-fluid">
+        <div class="row">
         <div class="col">
           <!-- Content for the top container goes here -->
           <h1>Task Manager</h1>
@@ -24,24 +24,27 @@
   <div class="container-one">
     <h2>Add New Task</h2>
     <br>
-    <p>Task Name</p>
-    <input id="task-name" type="text">
+    <div id="form">
+      <p>Task Name</p>
+      <input id="task-name" type="text">
     <br>
-    <p>Task Description</p>
-    <input id="task-description" class="first-input" type="text">
+      <p>Task Description</p>
+      <input id="task-description" class="first-input" type="text">
     <br>
-    <p>Assigned To:</p>
-    <input id="assigned-to" type="text">
+      <p>Assigned To:</p>
+      <input id="assigned-to" type="text">
     <br>
     <br>
 
-    <div>
-      <p>primary button</p>
-      <button class="button">Add Task</button>
     </div>
 
+      <button class="button">Add Task</button>
+    </div>
+    <div class="alert">
+  
+    </div>
   </div>
-
+</div>
   <div class="container-two">
     <h1>Due Date</h1>
     <div class="row">
@@ -120,7 +123,7 @@
       </li>
     </ul>
 
-    <script src="/index.js"></script>
+    <script src="index.js"></script>
     <!-- <script>
       $(function () {
         $('#datepicker').datepicker({
